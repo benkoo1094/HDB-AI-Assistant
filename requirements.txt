@@ -1,6 +1,7 @@
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.10
 aiosignal==1.3.1
+pysqlite3-binary
 altair==5.4.1
 annotated-types==0.7.0
 anyio==4.6.2.post1
@@ -119,7 +120,6 @@ pyreadline3==3.5.4
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.2
-pywin32==308
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
