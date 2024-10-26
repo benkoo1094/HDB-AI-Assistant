@@ -23,7 +23,7 @@ def query_chromadb(query):
     vector_store = Chroma(
         collection_name="my_collection",
         embedding_function=embeddings,
-        persist_directory="/chroma-data",  # Local storage for embeddings; can be omitted if not needed
+        persist_directory="./chroma-data",  # Local storage for embeddings; can be omitted if not needed
     )
 
     # Perform similarity search and return top 5 most relevant results
